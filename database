@@ -46,3 +46,23 @@ create table transactions (
    foreign key (pid) references products(pid) on delete cascade,
    foreign key (uid) references users(uid) on delete cascade
 );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INSERT INTO User (UserId, UserName, Password, FirstName, LastName, Type, Phone, Email)
+VALUES
+(1, 'rthomas', 'adminpass', 'Rachel', 'Thomas', 'Admin', '1234987650', 'abc@mail.com'),
+(2, 'ajackson', 'managerpass', 'Alex', 'Jackson', 'Manager', '7894987650', 'non@mail.com'),
+(3, 'pnelson', 'staffpass', 'Peter', 'Nelson', 'Staff', '7654987124', 'mmm@mail.com');
